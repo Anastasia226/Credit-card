@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Credit Card</title>
+</head>
+<body>
+<div class="container">
+<div class="flip">
+    <div class="card">
+        <div class="card-face front">
+            <p id="text-num">
+                #### #### #### ####
+                </padding>
+            <p id="text-date-month">
+                MM
+            </p>
+            <p id="text-date-year">
+                ГГ
+            </p>
+            <p id="text-name">
+                YOUR NAME
+            </p>
+        </div>
+        <div class="card-face back">
+            <p id="text-cvv">
+                CVV
+            </p>
+        </div>
+    </div>
+</div>
+    <div class="form-credit">
+        <div class="item">
+        <form action="">
+            <input type="input" class="form-control" id="number-card" placeholder="Номер карты" />
+            <input type="input" class="form-control" id="name-card" placeholder="Держатель карты" />
+            <input type="input" class="form-control" id="month" placeholder="ММ" />
+            <input type="input" class="form-control" id="year" placeholder="ГГ" />
+            <input type="input" class="form-control" id="cvv" placeholder="CVV" />
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+</body>
+</html>
